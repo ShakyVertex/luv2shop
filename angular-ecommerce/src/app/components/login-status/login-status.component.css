@@ -4,16 +4,36 @@
     Change border to 10px
 */
 
-.security-btn {
-    position:relative;
-    right:10px;
-    min-width:85px;
+.security-btn {  
+    position: relative;  
+    right: 0;  
+    min-width: 95px;  
+    height: 45px; /* 设置按钮的高度 */  
+    color: #fff;  
+    border: 1px solid #205b8d;  
+    -webkit-border-radius: 43px; /* 移除不一致的border-radius值 */  
+    -moz-border-radius: 43px;  
+    border-radius: 43px;  
+    background: #205b8d;  
+    /* 可以添加display: inline-block; 或 display: block; 来控制按钮的显示方式 */  
+    display: inline-block; /* 使按钮可以作为内联块级元素显示 */  
+}
+
+.security-btn:hover{
+    background:#05143f
+}
+
+.security-btn>i{
+    font-size:20px;
     color:#fff;
-    border:10px solid #205b8d;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    border-radius: 43px;
-    background:#205b8d
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
 }
 
 /*
