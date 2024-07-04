@@ -5,37 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31d1659b-9d6d-417f-a21a-6f496b5e6e7f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/ItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/dto/OrderDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/po/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/domain/query/ItemPageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/IItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/com/hmall/item/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/META-INF/spring.factories" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/advice/CommonExceptionAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/config/JsonConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/config/MyBatisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/domain/PageDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/domain/PageQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/domain/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/BizIllegalException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/CommonException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/DbException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/ForbiddenException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/exception/UnauthorizedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/BeanUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/CollUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/Convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/CookieBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/UserContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/classes/com/hmall/common/utils/WebUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/hm-common-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hm-service/src/main/java/com/hmall/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hm-service/src/main/resources/application-local.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-service/target/classes/application-dev.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-service/target/classes/application-local.yaml" beforeDir="false" />
@@ -115,9 +100,6 @@
       <change beforePath="$PROJECT_DIR$/hm-service/target/classes/mapper/PayOrderMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-service/target/classes/mapper/TradeClient.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hm-service/target/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hm-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hm-service/spring.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,18 +115,32 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2in9dUdM8te75H7FObWw6Y9Eklg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.HMallApplication.executor": "Run",
+    "Spring Boot.ItemApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SellaMomota/Desktop/Project/luv2shop/hmall",
+    "last_opened_file_path": "C:/Users/SellaMomota/Desktop/Project/luv2shop/hmall/item-service/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -153,10 +149,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SellaMomota\Desktop\Project\luv2shop\hmall\item-service\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hmall.item.controller" />
+      <recent name="com.hmall.item.service.impl" />
+      <recent name="com.hmall.item.service" />
+      <recent name="com.hmall.item.domain.dto" />
+      <recent name="com.hmall.item.mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HMallApplication">
     <configuration name="HMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hm-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.HMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="local" />
+      <module name="item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmall.item.ItemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720115561386</updated>
-      <workItem from="1720115562450" duration="35000" />
+      <workItem from="1720115562450" duration="2491000" />
     </task>
     <servers />
   </component>
