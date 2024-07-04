@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    name: item-service # 微服务名称
+    name: item-service
   profiles:
     active: dev
   datasource:
@@ -38,7 +38,7 @@ knife4j:
         group-name: default
         api-rule: package
         api-rule-resources:
-          - com.hmall.controller
+          - com.hmall.item.controller
 hm:
   jwt:
     location: classpath:hmall.jks
