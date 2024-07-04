@@ -1,0 +1,1 @@
+2024/07/03 23:19:00 [error] 32556#16228: *5 CreateFile() "C:\Users\SellaMomota\Desktop\Project\luv2shop\hmall-nginx/html/hmall-portal/list.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /list.html HTTP/1.1", host: "localhost:18080", referrer: "http://localhost:18080/"
